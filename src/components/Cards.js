@@ -8,7 +8,7 @@ function Cards() {
   return (
     <div className={styles.container}>
         {characters.map((item, i) => {
-          return <Card key={i} name={item.name} img={item.img} />;
+          return <Card key={i} name={item.name} img={item.img} id={i}/>;
         })}
     </div>
   );
