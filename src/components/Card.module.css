@@ -6,7 +6,18 @@
   margin: 10px;
 }
 
+.container:hover {
+  background-color: #88A0A8;
+  transition: background-color 0.5s;
+}
+
 img {
   max-width: 200px;
   max-height: 300px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+p {
+  text-align: center;
 }

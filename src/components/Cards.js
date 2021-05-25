@@ -4,12 +4,6 @@ import styles from "./Cards.module.css";
 import Card from "./Card"
 import { characters } from "./Characters";
 
-// Create cards from json dynamically - object containing img and name
-// Add ID to each card
-// Render cards randomly
-// If =! undefined < Card json data as prop>
-
-
 function Cards() {
   return (
     <div className={styles.container}>
