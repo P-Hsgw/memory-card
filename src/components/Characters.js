@@ -1,23 +1,34 @@
 export const characters = [
   {
-    name: "name1",
-    img: "img1",
+    name: "Alphinaud Leveilleur",
+    img: "alphinaud",
   },
   {
-    name: "name1",
-    img: "img1",
+    name: "Y'shtola Rhul",
+    img: "yshtola",
   },
   {
-    name: "name1",
-    img: "img1",
+    name: "Thancred Waters",
+    img: "thancred",
   },
   {
-    name: "name1",
-    img: "img1",
+    name: "Lyse Hext",
+    img: "lyse",
   },
   {
-    name: "name1",
-    img: "img1",
+    name: "Krile Mayer Baldesion",
+    img: "krile",
   },
-
+  {
+    name: "Urianger Augurelt",
+    img: "urianger",
+  },
+  {
+    name: "G'raha Tia",
+    img: "graha",
+  },
+  {
+    name: "Minfilia Warde",
+    img: "minfilia",
+  },
 ]

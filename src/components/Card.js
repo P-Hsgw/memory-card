@@ -5,6 +5,7 @@ function Card({ img, name }) {
   return (
     <div className={styles.container}>
       <p>IMG: {img}</p>
+      <img src={require(`../images/${img}.webp`).default} />
       <p>NAME: {name}</p>
     </div>
   );
