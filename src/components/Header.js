@@ -4,17 +4,7 @@ import styles from "./Header.module.css"
 function Header() {
   return (
       <header className={styles.header}>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Memory Card Game</h1>
       </header>
   );
 }
