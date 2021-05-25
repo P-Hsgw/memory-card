@@ -1,8 +1,12 @@
-// import React from "react";
+import React from "react"
+import styles from "./Card.module.css"
 
-// function Card () {
+function Card () {
+  return(
+    <div className={styles.container}>
+      {/* Insert picture and character name */}
+    </div>
+  )
+}
 
-//   return (
-
-//   )
-// }
+export default Card

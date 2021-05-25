@@ -1,11 +1,13 @@
 import React from "react";
 import styles from "./Cards.module.css"
 
+import Card from "./Card"
+
 function Cards () {
 
   return (
     <div className={styles.container}>
-      TESTUWKA
+      <Card />
     </div>
   )
 }
