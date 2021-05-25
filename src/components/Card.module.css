@@ -3,12 +3,14 @@
   border-style: solid;
   height: 400px;
   width: 300px;
-  margin: 10px;
+  margin: 50px;
 }
 
 .container:hover {
   background-color: #88A0A8;
-  transition: background-color 0.5s;
+  transition: background-color 0.5s, height 0.5s, width 0.5s;
+  width: 290px;
+  height: 390px;
 }
 
 img {
