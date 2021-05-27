@@ -3,6 +3,7 @@ import { useState } from "react";
 import styles from "./Cards.module.css";
 
 import Card from "./Card";
+import Header from "./Header"
 import { characters } from "./Characters";
 
 function Cards() {
@@ -25,6 +26,8 @@ function Cards() {
   }
 
   return (
+    <>
+    <Header currentScore={currentScore} topScore={topScore} />
     <div className={styles.container}>
       {characters.map((item, i) => {
         return (
@@ -38,6 +41,7 @@ function Cards() {
         );
       })}
     </div>
+    </>
   );
 }
 
