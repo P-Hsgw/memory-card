@@ -3,7 +3,7 @@ import { useState } from "react";
 import styles from "./Cards.module.css";
 
 import Card from "./Card";
-import Header from "./Header"
+import Header from "./Header";
 import { characters } from "./Characters";
 
 function Cards() {
@@ -27,20 +27,20 @@ function Cards() {
 
   return (
     <>
-    <Header currentScore={currentScore} topScore={topScore} />
-    <div className={styles.container}>
-      {characters.map((item, i) => {
-        return (
-          <Card
-            key={i}
-            name={item.name}
-            img={item.img}
-            id={i}
-            click={handleScore}
-          />
-        );
-      })}
-    </div>
+      <Header currentScore={currentScore} topScore={topScore} />
+      <div className={styles.container}>
+        {characters.map((item, i) => {
+          return (
+            <Card
+              key={i}
+              name={item.name}
+              img={item.img}
+              id={i}
+              click={handleScore}
+            />
+          );
+        })}
+      </div>
     </>
   );
 }

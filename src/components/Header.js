@@ -1,24 +1,22 @@
 import React, { useEffect, useState } from "react";
-import styles from "./Header.module.css"
+import styles from "./Header.module.css";
 
-function Header({currentScore, topScore}) {
-
-  const [score, setScore] = useState(0)
-  const [ maxScore, setMaxScore ] = useState(0)
+function Header({ currentScore, topScore }) {
+  const [score, setScore] = useState(0);
+  const [maxScore, setMaxScore] = useState(0);
 
   useEffect(() => {
-    setScore(currentScore)
-    setMaxScore(topScore)
-
-  }, [currentScore, topScore])
+    setScore(currentScore);
+    setMaxScore(topScore);
+  }, [currentScore, topScore]);
 
   return (
-      <header className={styles.header}>
-        <h1>Memory Card Game</h1>
-        <h2>CURRENT SCORE: { currentScore } </h2>
-        <h2>TOP SCORE: { topScore }</h2>
-      </header>
+    <header className={styles.header}>
+      <h1>Memory Card Game</h1>
+      <h2>CURRENT SCORE: {currentScore} </h2>
+      <h2>TOP SCORE: {topScore}</h2>
+    </header>
   );
 }
 
-export default Header
+export default Header;

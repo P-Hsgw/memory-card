@@ -5,7 +5,7 @@ export const characters = [
   },
   {
     name: "Alisaie Laveilleur",
-    img: "alisaie"
+    img: "alisaie",
   },
   {
     name: "Y'shtola Rhul",
@@ -35,4 +35,4 @@ export const characters = [
     name: "Minfilia Warde",
     img: "minfilia",
   },
-]
+];

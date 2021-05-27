@@ -1,6 +1,6 @@
-import styles from "./App.module.css"
+import styles from "./App.module.css";
 
-import Cards from "./components/Cards"
+import Cards from "./components/Cards";
 
 function App() {
   return (
