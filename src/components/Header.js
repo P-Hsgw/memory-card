@@ -13,8 +13,8 @@ function Header({ currentScore, topScore }) {
   return (
     <header className={styles.header}>
       <h1>Memory Card Game</h1>
-      <h2>CURRENT SCORE: {currentScore} </h2>
-      <h2>TOP SCORE: {topScore}</h2>
+      <h2>CURRENT SCORE: {score} </h2>
+      <h2>TOP SCORE: {maxScore}</h2>
     </header>
   );
 }
