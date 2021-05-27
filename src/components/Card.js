@@ -4,7 +4,6 @@ import styles from "./Card.module.css";
 import "./Card-random.css"
 
 function Card({ img, name, id, click }) {
-  const [ clicked, setClicked ] = useState(false)
   const [ cardId, setCardId ] = useState(undefined)
 
   useEffect(() => {
@@ -13,7 +12,6 @@ function Card({ img, name, id, click }) {
 
 
   function handleClick (e) {
-    setClicked(!clicked)
     setCardId(Math.floor(Math.random()*9))
     click(e.currentTarget.dataset.id)
   }
